@@ -1,0 +1,8 @@
+# SELECT challenge - display first, last name and email columns from customer table: 
+SELECT first_name, last_name FROM customer
+
+# SELECT DISTINCT challenge - Retrieve distinct rating types of films from database: 
+SELECT DISTINCT(rating) FROM film
+
+SELECT COUNT(amount) FROM payment
+WHERE amount > 5;
